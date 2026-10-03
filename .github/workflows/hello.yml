@@ -9,4 +9,8 @@ jobs:
     steps:
       - name: say hello
         run: echo "Hello CI"
+      - name: print data
+        run: data
+      - name: list directory 
+        run: ls -l 
 
